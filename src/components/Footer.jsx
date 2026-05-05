@@ -7,7 +7,7 @@ export default function Footer() {
     <footer className={styles.footer}>
       <Link to="/" className={styles.logoLink}>
         <img src={logoWhite} alt="Naturhistorisk Museum Aarhus" />
-      </Link>
+        </Link>
 
       <nav className={styles.links}>
         <div>
