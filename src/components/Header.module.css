@@ -1,0 +1,39 @@
+.header {
+  position: fixed;
+  top: 0;
+  left: 50%;
+  z-index: 100;
+  width: 100%;
+  max-width: 375px;
+  height: 68px;
+  transform: translateX(-50%);
+  padding: 10px 13px;
+  background: rgba(59, 42, 31, 0.72);
+  backdrop-filter: blur(2px);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logoLink img {
+  width: 142px;
+  height: auto;
+}
+
+.menuBtn {
+  width: 29px;
+  height: 24px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+  display: grid;
+  gap: 6px;
+}
+
+.menuBtn span {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background: white;
+}

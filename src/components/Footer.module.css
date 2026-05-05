@@ -1,0 +1,68 @@
+.footer {
+  background: var(--brown);
+  color: white;
+  padding: 36px 16px 32px;
+}
+
+.logo {
+  display: block;
+  font-family: Georgia, serif;
+  font-weight: 900;
+  font-size: 1.8rem;
+  line-height: 0.75;
+  letter-spacing: -0.05em;
+  margin-bottom: 30px;
+}
+
+.logo span {
+  display: block;
+  font-size: 3.1rem;
+}
+
+.links {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 18px;
+  margin-bottom: 42px;
+}
+
+.links div {
+  display: grid;
+  gap: 12px;
+}
+
+.links a {
+  font-size: 0.82rem;
+  font-weight: 800;
+}
+
+.contact,
+.address {
+  font-size: 0.75rem;
+  line-height: 1.35;
+}
+
+.contact {
+  margin-bottom: 42px;
+}
+
+.contact p,
+.address p {
+  margin: 0 0 14px;
+}
+
+.contact a {
+  text-decoration: underline;
+}
+
+.socials {
+  font-size: 1rem;
+  letter-spacing: 4px;
+}
+
+.logoLink img {
+  width: 285px;
+  max-width: 100%;
+  height: auto;
+  margin: 0 0 30px;
+}

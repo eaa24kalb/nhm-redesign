@@ -1,0 +1,56 @@
+.openingPage {
+  background: white;
+}
+
+.content {
+  padding: 28px 18px 80px;
+}
+
+.section {
+  margin-bottom: 48px;
+}
+
+.section h2 {
+  margin: 0 0 14px;
+  font-size: 1rem;
+  line-height: 1.15;
+  font-weight: 900;
+}
+
+.section p {
+  margin: 0 0 14px;
+  font-size: 0.74rem;
+  line-height: 1.35;
+}
+
+.hoursTable {
+  display: grid;
+  gap: 6px;
+  font-size: 0.72rem;
+}
+
+.hourRow {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.hourRow span:last-child {
+  text-align: right;
+}
+
+.priceList {
+  display: grid;
+  gap: 7px;
+  margin: 16px 0 10px;
+  font-size: 0.72rem;
+}
+
+.priceList div {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr;
+  gap: 8px;
+}
+
+.priceList span:last-child {
+  text-align: right;
+}

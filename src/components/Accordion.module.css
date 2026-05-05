@@ -1,0 +1,27 @@
+.accordion {
+  border-bottom: 1px solid #cfcfcf;
+}
+
+.trigger {
+  width: 100%;
+  min-height: 42px;
+  border: 0;
+  background: white;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: left;
+  font-size: 0.74rem;
+  font-weight: 800;
+  padding: 0;
+}
+
+.trigger span:last-child {
+  font-size: 1.25rem;
+}
+
+.content {
+  padding: 0 0 14px;
+  font-size: 0.72rem;
+  line-height: 1.4;
+}
