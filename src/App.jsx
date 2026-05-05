@@ -10,8 +10,7 @@ import OpeningHours from "./views/open/OpeningHours";
 
 function App() {
   return (
-    <BrowserRouter>
-      <Header />
+<BrowserRouter basename="/nhm-redesign">      <Header />
 
       <Routes>
         <Route path="/" element={<Home />} />
