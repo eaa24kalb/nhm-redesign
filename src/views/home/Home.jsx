@@ -121,11 +121,12 @@ export default function Home() {
       </section>
 
       {/* Nyhed */}
-      <section className={styles.section}>
-        <p className={styles.kicker}>Kommer snart / NYHED / HELT NYT</p>
+      <section className={styles.newsSection}>
+        <p className={styles.kicker}>Kommer snart</p>
 
         <article className={styles.newsCard}>
           <span className={styles.badge}>Nyhed!</span>
+
           <img src={afterglow} alt="" />
 
           <h2>Afterglow</h2>
@@ -134,7 +135,7 @@ export default function Home() {
             Kom med til åbningen af særudstillingen, hvor kunsten møder naturen.
           </p>
 
-          <Link to="/kalender" className={styles.outlineBtn}>
+          <Link to="/kalender" className={`${styles.outlineBtn} outlineBtn`}>
             Læs mere
           </Link>
         </article>

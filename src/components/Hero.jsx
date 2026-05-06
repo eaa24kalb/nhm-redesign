@@ -10,20 +10,17 @@ export default function Hero({
   breadcrumb,
   children,
   height = "large",
+  variant = "bottom",
 }) {
   const [isMuted, setIsMuted] = useState(true);
 
   return (
-    <section className={`${styles.hero} ${styles[height]}`}>
+    <section
+      className={`${styles.hero} ${styles[height]} ${styles[variant]}`}
+    >
       {video ? (
         <>
-          <video
-            src={video}
-            autoPlay
-            loop
-            playsInline
-            muted={isMuted}
-          />
+          <video src={video} autoPlay loop playsInline muted={isMuted} />
 
           <button
             className={styles.soundBtn}

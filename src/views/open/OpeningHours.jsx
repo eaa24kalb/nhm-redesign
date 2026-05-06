@@ -25,9 +25,9 @@ export default function OpeningHours() {
             <br />& information
           </>
         }
-        height="medium"
+        height="large"
+        variant="bottom"
       />
-
       <section className={styles.content}>
         <section className={styles.section}>
           <h2>Åbningstider</h2>

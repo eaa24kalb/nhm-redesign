@@ -36,9 +36,9 @@
 .content {
   position: absolute;
   z-index: 2;
-  inset: 78px 14px 16px;
-  display: flex;
-  flex-direction: column;
+  left: 14px;
+  right: 14px;
+  bottom: 8px;
 }
 
 .breadcrumb {
@@ -54,14 +54,6 @@
   font-weight: 900;
 }
 
-.heroContent p {
-  font-size: 1rem;
-}
-
-.heroContent span {
-  font-size: 0.9rem;
-}
-
 .subtitle {
   margin: auto 0 0;
   font-size: 0.78rem;
@@ -72,29 +64,63 @@
   z-index: 3;
   bottom: 14px;
   right: 14px;
-
   width: 36px;
   height: 36px;
-
   border-radius: 50%;
   border: 0;
-
   background: rgba(0, 0, 0, 0.5);
   color: white;
-
   font-size: 1rem;
-
   display: grid;
   place-items: center;
-
   cursor: pointer;
   backdrop-filter: blur(6px);
-
   transition: background 0.2s ease, transform 0.15s ease;
 }
 
 .soundBtn:active {
   transform: scale(0.9);
+}
+
+/* Standard hero: tekst nederst */
+.bottom .content {
+  left: 14px;
+  right: 14px;
+  bottom: 8px;
+}
+
+/* Event detail hero: tekst svæver */
+.floating .content {
+  top: 86px;
+  bottom: auto;
+  left: 20px;
+  right: 20px;
+}
+
+.floating .breadcrumb {
+  margin: 0 0 46px;
+  font-size: 0.82rem;
+  line-height: 1.2;
+}
+
+.floating h1 {
+  margin: 0;
+  font-size: 2.25rem;
+  line-height: 1.05;
+}
+
+.floating .subtitle {
+  position: absolute;
+  top: 338px;
+  left: 0;
+  margin: 0;
+  font-size: 0.82rem;
+  line-height: 1.2;
+}
+
+.floating .soundBtn {
+  bottom: 18px;
+  right: 18px;
 }
 
 @media (hover: hover) {

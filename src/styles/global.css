@@ -1,5 +1,11 @@
 @font-face {
   font-family: "Mont";
+  src: url("/src/assets/fonts/Mont-Light.otf") format("opentype");
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Mont";
   src: url("/src/assets/fonts/Mont-Regular.otf") format("opentype");
   font-weight: 400;
 }
@@ -15,6 +21,8 @@
   src: url("/src/assets/fonts/Mont-Heavy.otf") format("opentype");
   font-weight: 900;
 }
+
+
 
 :root {
   --brown: #3b2a1f;

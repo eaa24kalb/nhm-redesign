@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 import styles from "./EventDetail.module.css";
 import Hero from "../../components/Hero";
 import natVideo from "../../assets/images/NatPåMuseet.mov";
@@ -10,7 +11,11 @@ export default function EventDetail() {
     <main className={styles.eventDetail}>
       <Hero
         video={natVideo}
-        breadcrumb="Kalender > Påskeferie > Særlige oplevelser"
+        breadcrumb={
+          <Link to="/kalender" className={styles.breadcrumbLink}>
+            Kalender &gt; Påskeferie &gt; Særlige oplevelser
+          </Link>
+        }
         title={
           <>
             Nat på Museet
@@ -19,6 +24,7 @@ export default function EventDetail() {
         }
         subtitle="Onsdag d. 1/4, fra kl. 15:30-20:00"
         height="large"
+        variant="floating"
       />
 
       <section className={styles.content}>
